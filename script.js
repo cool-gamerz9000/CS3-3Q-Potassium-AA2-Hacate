@@ -1,7 +1,9 @@
 var Po=initialpopulation;
 var r=rateofgrowth;
 var t=timeinhours;
-function Population(r) {
-    return parseFloat(r)*Po*e*r*t*Math.PI;
-  }
-document.Population('m-m-1').innerHTML = Math.round(r);
+function circumference(r) {
+  return parseFloat(r) * 2.0 * Math.PI;
+}
+
+console.log(circumference(4.567));
+document.getElementById('m-m-1').innerHTML = Math.round(s);
